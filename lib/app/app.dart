@@ -1,6 +1,5 @@
-import 'package:dice_app/pages/home_page.dart';
+import 'package:dice_app/players_register_page.dart';
 import 'package:flutter/material.dart';
-
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: PlayersRegisterPage(),
       debugShowCheckedModeBanner: false,
     );
   }
